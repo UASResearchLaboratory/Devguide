@@ -38,7 +38,7 @@ then
     echo " FastRTPS already installed."
 else
     pushd .
-    cd ~
+    cd $HOME/uasproject
     wget https://www.eprosima.com/index.php/component/ars/repository/eprosima-fast-rtps/eprosima-fast-rtps-1-7-1/eprosima_fastrtps-1-7-1-linux-tar-gz -O eprosima_fastrtps-1-7-1-linux.tar.gz
     tar -xzf eprosima_fastrtps-1-7-1-linux.tar.gz eProsima_FastRTPS-1.7.1-Linux/
     tar -xzf eprosima_fastrtps-1-7-1-linux.tar.gz requiredcomponents
