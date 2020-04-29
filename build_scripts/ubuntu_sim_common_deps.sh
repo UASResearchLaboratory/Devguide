@@ -61,7 +61,7 @@ if [ -d "$clone_dir" ]
 then
     echo " Firmware already cloned."
 else
-    mkdir -p $clone_dir
-    cd $clone_dir
+#    mkdir -p $clone_dir
+    cd ~/uasproject
     git clone https://github.com/UASResearchLaboratory/Firmware.git
 fi
