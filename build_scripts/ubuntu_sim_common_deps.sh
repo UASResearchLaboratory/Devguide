@@ -63,5 +63,5 @@ then
 else
     mkdir -p $clone_dir
     cd $clone_dir
-    git clone https://github.com/PX4/Firmware.git
+    git clone https://github.com/UASResearchLaboratory/Firmware.git
 fi
