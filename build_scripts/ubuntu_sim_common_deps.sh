@@ -31,7 +31,7 @@ sudo -H pip install pandas jinja2 pyserial pyyaml
 sudo -H pip install pyulog
 
 # Install FastRTPS 1.7.1 and FastCDR-1.0.8
-fastrtps_dir=$HOME/eProsima_FastRTPS-1.7.1-Linux
+fastrtps_dir=$HOME/uasproject/eProsima_FastRTPS-1.7.1-Linux
 echo "Installing FastRTPS to: $fastrtps_dir"
 if [ -d "$fastrtps_dir" ]
 then
@@ -51,11 +51,11 @@ else
 fi
 
 # jMAVSim simulator dependencies
-echo "Installing jMAVSim simulator dependencies"
-sudo apt-get install ant openjdk-8-jdk openjdk-8-jre -y
+# echo "Installing jMAVSim simulator dependencies"
+# sudo apt-get install ant openjdk-8-jdk openjdk-8-jre -y
 
 # Clone PX4/Firmware
-clone_dir=~/src
+clone_dir=~/uasproject/
 echo "Cloning PX4 to: $clone_dir."
 if [ -d "$clone_dir" ]
 then
